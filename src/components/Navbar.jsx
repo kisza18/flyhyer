@@ -1,21 +1,27 @@
 import menu from "../assets/svg/menu.svg";
 import plane from "../assets/svg/plane.svg";
+import MainButton from "../layouts/MainButton";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-end px-10 py-7">
-      <div className="nav-links flex gap-6 mr-12">
-        <a href="/">Solutions</a>
-        <a href="/">About Us</a>
-        <a href="/">Contact</a>
-      </div>
-      <div className="menu-links flex items-center">
-        <a className="flex w-10 bg-black rounded-full" href="/">
-          <img className="rounded-full p-3" src={plane} />
-        </a>
-        <a className="flex w-10 bg-black rounded-full ml-2" href="/">
-          <img className="rounded-full p-3" src={menu} />
-        </a>
+    <div className="flex justify-between absolute w-full">
+      <div className="w-1/2"></div>
+      <div className="flex flex-col w-1/2 items-end">
+        <div className="flex items-center justify-end px-10 py-10">
+          <div className="nav-links flex gap-10 mr-12">
+            <a href="/">Solutions</a>
+            <a href="/">About Us</a>
+            <a href="/">Contact</a>
+          </div>
+          <div className="menu-links flex items-center gap-4">
+            <MainButton>
+              <img className="w-4 h-6" src={plane} />
+            </MainButton>
+            <MainButton>
+              <img className="w-4 h-6" src={menu} />
+            </MainButton>
+          </div>
+        </div>
       </div>
     </div>
   );

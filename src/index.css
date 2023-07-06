@@ -5,3 +5,14 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+.header {
+  background: rgb(123, 150, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(123, 150, 182, 1) 0%,
+    rgba(167, 189, 210, 1) 83%
+  );
+  min-height: 650px;
+  height: 100vh;
+  max-height: 980px;
+}
