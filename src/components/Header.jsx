@@ -12,9 +12,9 @@ const Header = () => {
         <div className="content px-12 flex flex-col justify-between h-full">
           <div className="flex justify-between items-center">
             <img className="w-1/2" src={logoImg} alt="logo" />
-            <div className="mr-28 mt-16">
-              <h1 className="text-5xl font-semibold">Personalised</h1>
-              <h1 className="text-5xl font-semibold">Aviation</h1>
+            <div className="mr-52 mt-16">
+              <h1 className="text-5xl font-bold">Personalised</h1>
+              <h1 className="text-5xl font-bold">Aviation</h1>
             </div>
           </div>
           <div className="flex items-center justify-between py-10 w-full">

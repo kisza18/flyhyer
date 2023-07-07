@@ -16,3 +16,28 @@
   height: 100vh;
   max-height: 980px;
 }
+.plane-card {
+  background-image: url("./assets/images/aircraft.png");
+  background-size: cover;
+}
+.route-card {
+  background: #bc7154;
+  background-image: url("./assets/svg/route.svg");
+  background-size: cover;
+  background-position-y: -150px;
+  background-position-x: 100px;
+  background-repeat: no-repeat;
+}
+.dest-image {
+  border-bottom-right-radius: 70px;
+  height: 550px;
+}
+.dest-card {
+  border-bottom-right-radius: 30px;
+}
+.mobile-section {
+  background: #0f0f1b;
+}
+.content-section {
+  background: #141623;
+}
